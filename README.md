@@ -11,4 +11,4 @@ Second flag is the one flag as when count is equal to one then we reached the en
 It is  FSM with three states
 In the default case of the FSM we assign Smux and Cmux to don't care to avoid latching 
 
-Warnings may appear at line 48 and 49 where the 1 is treated by verilog as 32bit and we assigned it for a 3bit register
+Warnings may appear at line 48 and 49 where the 1 is treated by verilog as 32bit and we assigned it for a 4bit register
