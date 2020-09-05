@@ -24,7 +24,7 @@ input [3:0] N ;
 output [6:0] sum;
 
 reg [6:0] sum;   reg [3:0] Nprev;
-reg [2:0] count; reg	[1:0] state, next_state;
+reg [3:0] count; reg	[1:0] state, next_state;
 
    // control lines
 reg [1:0] Smux , Cmux ;
